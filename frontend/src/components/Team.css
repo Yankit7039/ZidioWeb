@@ -1,0 +1,104 @@
+/* Padding adjustment to account for the navbar */
+.team-section {
+    padding: 120px 20px; /* Increased top padding to accommodate the navbar */
+    background: linear-gradient(135deg, #e0f7fa, #b3e5fc); /* Light blue theme gradient */
+    color: #333;
+  }
+  
+  .team-heading {
+    color: #004d40; /* Dark teal for contrast */
+    font-size: 3rem;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .team-heading .highlight {
+    color: #0288d1; /* Bright blue for highlighting */
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ensures symmetry */
+    gap: 40px;
+  }
+  
+  .team-card {
+    background: rgba(255, 255, 255, 0.9); /* Light background for cards */
+    border-radius: 20px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  .avatar-wrapper {
+    position: relative;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    border: 4px solid white;
+    transition: transform 0.4s ease;
+  }
+  
+  .team-card:hover .avatar-wrapper {
+    transform: scale(1.05); /* Slight zoom-in on avatar when hovering */
+  }
+  
+  .member-name {
+    font-size: 1.6rem;
+    margin-top: 10px;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .member-name .highlight {
+    color: #3f51b5; /* Brighter blue for the highlighted last name */
+  }
+  
+  .member-role {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .member-expertise {
+    font-size: 0.9rem;
+    color: #757575;
+    margin-top: 15px;
+  }
+  
+  .team-section {
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 40px;
+  }
+  
+  .team-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .member-name {
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  .member-role {
+    color: #777;
+  }
+  
+  .member-expertise {
+    color: #555;
+  }
+  
+  .highlight {
+    color: #3f51b5;
+  }
+  

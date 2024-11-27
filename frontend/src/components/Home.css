@@ -1,0 +1,38 @@
+/* Custom underline styling for section headings */
+.underline-heading {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .underline-heading:after {
+    content: '';
+    width: 60%;
+    height: 4px;
+    background-color: #ff5722;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .underline-heading:hover:after {
+    width: 80%;
+  }
+  
+  /* Hero Section Background Image Responsiveness */
+  @media (max-width: 768px) {
+    .relative.bg-cover {
+      background-size: contain;
+    }
+  }
+  
+  /* Card Customization */
+  .bg-white {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .bg-white:hover {
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+  }
+  

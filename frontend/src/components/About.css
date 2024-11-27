@@ -1,0 +1,137 @@
+.about-container {
+    padding: 50px 30px;
+    background-color: #f5f7fa;
+  }
+  
+  .service-cards-section {
+    padding-bottom: 60px;
+  }
+  
+  .service-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-icon {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .service-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .about-us-section {
+    padding: 60px 0;
+    background-color: #ffffff;
+  }
+  
+  .about-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .about-description {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-features {
+    margin-bottom: 20px;
+  }
+  
+  .about-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .team-section {
+    padding: 60px 0;
+  }
+  
+  .team-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .team-card {
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-avatar {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .team-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .team-role {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .all-team-btn {
+    display: block;
+    margin: 30px auto 0;
+  }
+
+  .about-left {
+    position: relative;
+    padding: 20px;
+  }
+  
+  .about-thumb img {
+    width: 100%; /* Adjust according to your layout */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .about-award-box {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Spacing */
+  }
+  
+  .about-award-icon img {
+    width: 50px; /* Adjust size */
+    height: auto;
+    margin-right: 10px; /* Spacing */
+  }
+  
+  .about-counter-box {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Spacing */
+  }
+  
+  .about-counter-icon img {
+    width: 50px; /* Adjust size */
+    height: auto;
+    margin-right: 10px; /* Spacing */
+  }
+  
+  .about-shape img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Adjust according to your layout */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

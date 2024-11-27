@@ -1,0 +1,11 @@
+img {
+    border-radius: 15px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* For smaller screens, stack the image and timeline vertically */
+    .timeline-section {
+      flex-direction: column;
+    }
+  }
+  
